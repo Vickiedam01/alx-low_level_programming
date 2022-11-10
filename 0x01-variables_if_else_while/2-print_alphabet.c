@@ -1,18 +1,20 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
- * main - prints alpha in lower case
- * Return: Always 0
+ * main - returns alphabets
+ *
+ * Returns: Always 0 (Success)
  */
 int main(void)
+{
+	int ch = 'a';
 
-	char lc;
-
-	for(lc = 'a'; lc <= 'z'; lc++);
+	while (ch <= 'z')
 	{
-		putchar(lc);
+		_putchar(ch);
+		ch++;
 	}
-	putchar('\n');
-
+	_putchar('\n');
 	return (0);
 }
