@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _calloc - allocated memoria for nmeb elemn de zise byte
- * @:nmemb: number of element in the array
+ * _calloc - allocated memoria for nmemb elemn de zise byte
+ * @nmemb: number of element in the array
  * @size: bytes for each position in array
  * Return: pointer void
  */
